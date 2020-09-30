@@ -32,11 +32,6 @@ a {
 a:hover {
     text-decoration: underline;
  }
- ol li:first-letter{
-    color: #903;
-    font-family: Georgia;
-    font-size: 25px;
-   }
  p:first-letter{
 font-size: 30px;
  }
