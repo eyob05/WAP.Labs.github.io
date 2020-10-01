@@ -1,0 +1,101 @@
+body {
+    padding: 0px;
+    font-family: Gabriola, serif;
+    font-size: 18pt;
+}
+.intro > div{
+    background-size: cover;
+    background: url("https://images.unsplash.com/photo-1470115636492-6d2b56f9146d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60") center;
+    color:white;
+}
+.intro header{
+    height:220px;
+    background-size: cover;
+    background-image: url("https://images.unsplash.com/photo-1534156039819-c89418369a4f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60");
+}
+header h1{
+    color:wheat;
+    text-align:center;
+    font-size:60px;
+    padding-top:40px;
+    margin-bottom:10px;
+}
+header h2{
+    color:green;
+    text-align:center;
+    margin-top:10px;
+}
+h3{
+    color:#b21f2d;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+
+}
+section>div,.main>div{
+    padding-left:30px;
+    display:inline-block;
+    width:70%;
+}
+.main a{
+    color: #fd7e14;
+}
+.main{
+    background-size: cover;
+    background:url("https://images.unsplash.com/photo-1567647753830-de3fe7ce9f28?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60") center;
+    color: white;
+}
+aside{
+    position:absolute;
+    display:inline-block;
+    width:25%;
+    height:auto;
+    left:75%;
+    top:270px;
+
+    background-image:url("https://images.unsplash.com/photo-1502567439686-2281cd405d39?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60");
+
+}
+footer{
+    background:#002752;
+    height:100px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+aside ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+aside li {
+    padding-left:30px;
+    border-bottom: 1px solid #ccc;
+    font-family:italic;
+}
+aside li a {
+    font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+    text-decoration: none;
+    color:green;
+    display: block;
+
+}
+aside li a:hover {
+    font-size: 30px;
+    background: #f6f6f6;
+}
+aside h3 {
+    padding-left:20px;
+    color:#b21f2d;
+    font-size:30px;
+    font-family: "fantasy";
+}
+footer a{
+    display:inline-block;
+    text-decoration: #721c24;
+    padding-left:20px;
+    color: darkblue;
+
+}
+div {
+    color: pink
+}
