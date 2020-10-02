@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="lab04.css" type="text/css" rel="stylesheet"/>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <meta name="description" content="Learn basic HTML"/>
+    <meta name="author" content="Eyob"/>
+    <meta name="Keywords" content="HTML form"/>
+</head>
+<body>
+    <nav class="head">
+    <div >
+       <h2> Workshop Registration</h2>
+        <label> More Actions</label>
+        <select id="action" name="actions">
+            <option >-</option>
+        </select>
+    </div>
+</nav>
+    <div class="container">
+     <form>
+        <p class="underline">Register now while seats are available!</p>
+        <div class="col-1">
+            <div class="controls">
+                <label class="lbl" for="fName">First Name <span class="required">*</span> </label>
+                <input type="text" name="fname" id="fName" >
+            </div>
+            <br>
+            <div class="controls">
+                <label class="lbl" for="lastName">Last Name <span class="required">*</span> </label>
+                <input type="text" name="fname" id="lastName">
+            </div>
+            <br>
+            <div class="controls">
+                <label class="lbl" for="company">Company/Institution<span class="required">*</span></label>
+                <input type="text" name="comp" id="company">
+            </div>
+            <br>
+            <div class="controls">
+                <label class="lbl" for="addr">Address <span class="required">*</span></label>
+                <input type="text" name="address" id="addr">
+            </div>
+            <br>
+            <div class="controls">
+                <label class="lbl" for="city">City </label>
+                <input type="text" name="city" id="city">
+            </div>
+            <br>
+            <div class="controls">
+                <label class="lbl" for="state">State/Province/Region</label>
+                <select class="form-select" name="state" id="state">
+                    <option value=none> Select</option>
+                    <option>Texas</option>
+                    <option>Iowa</option>
+                    <option>Arizona</option>
+                </select>
+            </div>
+            <br>
+            <div class="controls">
+                <label class="lbl" for="country">Country</label>
+                <select class="form-select" name="country" id="country">
+                    <option value="none"> Select</option>
+                    <option>united state</option>
+                    <option>Eritrea</option>
+                    <option>China</option>
+                </select>
+            </div>
+            <br>
+            <div class="controls">
+                <label class="lbl" for="email">Email <span class="required">*</span></label>
+                <input type="email" name="email" id="email">
+            </div>
+            <br>
+            <div class="controls">
+                <label class="lbl" for="phone">Phone Number <span class="required">*</span></label>
+                <input type="text" name="phoneNumber" id="phone">
+            </div>
+           </div>
+           <div class="col-2">
+            <p class="underline">Lunch</p>
+            <div class="controls">
+                <label class="lbl" for="mealPre">Meal Preference</label>
+                <select class="form-select" name="meal" id="mealPre">
+                    <option value="veg">Vegeterian</option>
+                </select>
+            </div>
+            <p class="underline">Payment Details</p>
+            <div class="controls">
+                <label class="lbl">Payment Mode</label>
+                <div class="check-options">
+                    <label><input type="checkbox" name="paymentMode" value="cash">Cash</label><br>
+                    <label><input type="checkbox" name="paymentMode" value="cheque">Cheque</label><br>
+                    <label><input type="checkbox" name="paymentMode" value="demandDraft">Demand
+                        Draft</label>
+                </div>
+            </div>
+            <div class="controls">
+                <label class="lbl" for="chequeNo">DD /Cheque No </label>
+                <input type="text" name="phone" id="chequeNo">
+            </div>
+            <div class="controls">
+                <label class="lbl" for="drawnOn">Drawn On(Bank Name) </label>
+                <input type="text" name="drawnOn" id="drawnOn">
+            </div>
+            <div class="controls">
+                <label class="lbl" for="payableAt">Payable at </label>
+                <input type="text" name="payableAt" id="payableAt">
+            </div>
+        
+        </div>
+        </form>
+    </div>
+<nav class="foot">
+<div class="Submit">
+        <input type="submit"></input>
+        <input type="reset"></input>
+
+</div>
+</nav>
+</body>
+</html>
