@@ -15,7 +15,7 @@
 
     <core:forEach var="beer" items="${styles}">
 
-    <br>Try: <core:out value="${beer}"></core:out>
+    <br>Try: "${beer}"
     </core:forEach>
 
 
