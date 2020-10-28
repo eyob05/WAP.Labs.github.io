@@ -7,7 +7,7 @@ body{
 }
 strong{
     font-family: Arial ;
-    color:rgba(255, 174, 0, 0.877)
+    color:rgb(12, 12, 121)
 }
 h1{
     text-align: center;
@@ -41,3 +41,4 @@ font-size: 1.5em;
  #hidden_list:hover .about_movie {
     display: block;
  }
+ 
